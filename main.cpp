@@ -1,6 +1,12 @@
 #include <iostream>
+
+using namespace std;
+
 int main(){
-    std::cout<<"hello world!\n";
-    system(pause"[D[D[D[D[D[D"[C[Dpause");
+    char name [20];
+    cout <<"Enter your name:";
+    cin >> name;
+    cout<<"hello," << name << "!\n";
+    system("pause");
     return 0;
 }
